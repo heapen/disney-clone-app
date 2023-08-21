@@ -6,7 +6,7 @@ const screenWidth = window.innerWidth;
 
 
 const Slider = () => {
-    const [movieList, setMovieList]=useState([]);
+    const [movieList, setMovieList]=useState([]); 
     const elementRef = useRef();
     useEffect(() => {
         getTrendingMovies();
